@@ -1,0 +1,7 @@
+{
+  "name": "VanCity Transit Live",
+  "description": "Real-time bus tracking for the Greater Vancouver TransLink network with AI-powered route assistance.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}

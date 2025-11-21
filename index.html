@@ -18,24 +18,27 @@
         height: 6px;
       }
       ::-webkit-scrollbar-track {
-        background: #1e293b; 
+        background: #020617; 
       }
       ::-webkit-scrollbar-thumb {
-        background: #475569; 
+        background: #334155; 
         border-radius: 3px;
       }
       ::-webkit-scrollbar-thumb:hover {
-        background: #64748b; 
+        background: #475569; 
       }
       
       /* Leaflet override for dark mode popups */
       .leaflet-popup-content-wrapper, .leaflet-popup-tip {
-        background: #1e293b;
+        background: rgba(2, 6, 23, 0.85) !important;
+        backdrop-filter: blur(12px);
+        -webkit-backdrop-filter: blur(12px);
         color: #f8fafc;
-        box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+        box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.5);
+        border: 1px solid rgba(255,255,255,0.1);
       }
       .leaflet-container {
-        background: #0f172a;
+        background: #020617;
       }
     </style>
   <script type="importmap">
@@ -52,7 +55,7 @@
 }
 </script>
 </head>
-  <body class="bg-slate-950 text-slate-50 overflow-hidden">
+  <body class="bg-slate-950 text-slate-50 overflow-hidden selection:bg-cyan-500/30 selection:text-cyan-200">
     <div id="root"></div>
   </body>
 </html>

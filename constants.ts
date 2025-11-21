@@ -10,11 +10,11 @@ export const DEFAULT_ZOOM = 13;
 export const TRANSLINK_API_BASE = 'https://api.translink.ca/rttiapi/v1';
 
 export const AVAILABLE_ROUTES: Route[] = [
-  { RouteNo: '099', Name: 'B-Line Commercial-Broadway / UBC', Direction: RouteDirection.WEST, Color: '#f97316' }, // Orange
-  { RouteNo: '019', Name: 'Metrotown / Stanley Park', Direction: RouteDirection.WEST, Color: '#3b82f6' }, // Blue
-  { RouteNo: '005', Name: 'Robson / Downtown', Direction: RouteDirection.SOUTH, Color: '#a855f7' }, // Purple
-  { RouteNo: 'R4', Name: '41st Ave RapidBus', Direction: RouteDirection.EAST, Color: '#22c55e' }, // Green
-  { RouteNo: 'Seabus', Name: 'SeaBus Lonsdale / Waterfront', Direction: RouteDirection.SOUTH, Color: '#ef4444' }, // Red
+  { RouteNo: '099', Name: 'B-Line Commercial-Broadway / UBC', Direction: RouteDirection.WEST, Color: '#FB923C' }, // Neon Orange
+  { RouteNo: '019', Name: 'Metrotown / Stanley Park', Direction: RouteDirection.WEST, Color: '#22D3EE' }, // Neon Cyan
+  { RouteNo: '005', Name: 'Robson / Downtown', Direction: RouteDirection.SOUTH, Color: '#E879F9' }, // Neon Purple
+  { RouteNo: 'R4', Name: '41st Ave RapidBus', Direction: RouteDirection.EAST, Color: '#A3E635' }, // Neon Lime
+  { RouteNo: 'Seabus', Name: 'SeaBus Lonsdale / Waterfront', Direction: RouteDirection.SOUTH, Color: '#F43F5E' }, // Neon Red/Pink
 ];
 
 // Path simulation points for demo mode (simplified polylines)
